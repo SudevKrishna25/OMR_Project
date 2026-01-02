@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Project Specific
+web_uploads/*
+!web_uploads/.gitkeep
+static/web_outputs/*
+!static/web_outputs/.gitkeep
+dataset/train_patches/
+output/
+output_cnn/
+*.keras
+*.jpeg
+*.png
+*.jpg
+!dataset/answer/answer.jpeg
+!dataset/test/test 1.jpeg
+!dataset/test/test 2.png
+!dataset/test/test 3.jpeg
+!dataset/test/test 4.jpeg
+!dataset/test/test 5.jpeg
+!dataset/test/test 6.jpeg
+!dataset/test/test 7.png
+!dataset/test/test 8.png
+!dataset/test/test 9.png
+!dataset/test/test 10.png
+
+# IDEs
+.vscode/
+.idea/
+.gemini/
+brain/
